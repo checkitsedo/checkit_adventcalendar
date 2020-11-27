@@ -4,14 +4,13 @@
  * $EM_CONF.
  */
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Adventcalendar with Audio-Files',
-    'description' => 'Shows a Adventcalendar in the Frontend with daily Audio-Files',
+    'title' => 'Responsive Adventcalendar',
+    'description' => 'A customizable responsive advent calendar show Modals based on pages as content placeholders for the several wickets',
     'category' => 'plugin',
     'author' => 'Dominik Senti',
     'author_email' => 'info@senti.lu',
-    'author_company' => 'checkit senti.lu',
-    'version' => '0.0.1',
-    'state' => 'beta',
+    'version' => '0.9.0',
+    'state' => 'stable',
     'clearcacheonload' => 1,
     'constraints' => [
         'depends' => [
@@ -22,8 +21,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'Checkitsedo\\CheckitAdventcalendar\\' => 'Classes/',
+            'Checkit\\CheckitAdventcalendar\\' => 'Classes/',
         ],
     ],
 ];
-
