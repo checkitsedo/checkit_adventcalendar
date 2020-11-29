@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-04-11T14:12:36Z" product-name="checkitadventcalendar">
+		<header/>
+		<body>
+			<trans-unit id="tx_checkitadventcalendar_domain_model_adventcalendar" approved="yes">
+				<source>Adventcalendar</source>
+				<target>Adventskalender</target>
+			</trans-unit>
+			<trans-unit id="sheetLabelBackground" approved="yes">
+				<source>Background picture</source>
+				<target>Angaben zum Hintergrundbild</target>
+			</trans-unit>
+			<trans-unit id="backgroundPic">
+				<source>Background picture for the adventcalendar</source>
+				<target>Hintergrundbild für den Adventskalender</target>
+			</trans-unit>
+			<trans-unit id="backgroundPicAltTag">
+				<source>Alternative text</source>
+				<target>Alternative Text</target>
+			</trans-unit>
+			<trans-unit id="sheetLabelImagemap">
+				<source>Imagemap data</source>
+				<target>Angaben zur Imagemap</target>
+			</trans-unit>
+			<trans-unit id="imagemapId">
+				<source>ID for ImageMap</source>
+				<target>ImageMap-Bezeichnung</target>
+			</trans-unit>
+			<trans-unit id="imagemapCode">
+				<source>ImageMap HTML code</source>
+				<target>ImageMap-HTML-Code</target>
+			</trans-unit>
+			<trans-unit id="sheetLabelWickets">
+				<source>Target pages for wickets</source>
+				<target>Zielseiten für die Türchen</target>
+			</trans-unit>
+			<trans-unit id="pidWicket1">
+				<source>PID wicket 1</source>
+				<target>PID Türchen 1</target>
+			</trans-unit>
+			<trans-unit id="pidWicket2">
+				<source>PID wicket 2</source>
+				<target>PID Türchen 2</target>
+			</trans-unit>
+			<trans-unit id="pidWicket3">
+				<source>PID wicket 3</source>
+				<target>PID Türchen 3</target>
+			</trans-unit>
+			<trans-unit id="pidWicket4">
+				<source>PID wicket 4</source>
+				<target>PID Türchen 4</target>
+			</trans-unit>
+			<trans-unit id="pidWicket5">
+				<source>PID wicket 5</source>
+				<target>PID Türchen 5</target>
+			</trans-unit>
+			<trans-unit id="pidWicket6">
+				<source>PID wicket 6</source>
+				<target>PID Türchen 6</target>
+			</trans-unit>
+			<trans-unit id="pidWicket7">
+				<source>PID wicket 7</source>
+				<target>PID Türchen 7</target>
+			</trans-unit>
+			<trans-unit id="pidWicket8">
+				<source>PID wicket 8</source>
+				<target>PID Türchen 8</target>
+			</trans-unit>
+			<trans-unit id="pidWicket9">
+				<source>PID wicket 9</source>
+				<target>PID Türchen 9</target>
+			</trans-unit>
+			<trans-unit id="pidWicket10">
+				<source>PID wicket 10</source>
+				<target>PID Türchen 10</target>
+			</trans-unit>
+			<trans-unit id="pidWicket11">
+				<source>PID wicket 11</source>
+				<target>PID Türchen 11</target>
+			</trans-unit>
+			<trans-unit id="pidWicket12">
+				<source>PID wicket 12</source>
+				<target>PID Türchen 12</target>
+			</trans-unit>
+			<trans-unit id="pidWicket13">
+				<source>PID wicket 13</source>
+				<target>PID Türchen 13</target>
+			</trans-unit>
+			<trans-unit id="pidWicket14">
+				<source>PID wicket 14</source>
+				<target>PID Türchen 14</target>
+			</trans-unit>
+			<trans-unit id="pidWicket15">
+				<source>PID wicket 15</source>
+				<target>PID Türchen 15</target>
+			</trans-unit>
+			<trans-unit id="pidWicket16">
+				<source>PID wicket 16</source>
+				<target>PID Türchen 16</target>
+			</trans-unit>
+			<trans-unit id="pidWicket17">
+				<source>PID wicket 17</source>
+				<target>PID Türchen 17</target>
+			</trans-unit>
+			<trans-unit id="pidWicket18">
+				<source>PID wicket 18</source>
+				<target>PID Türchen 18</target>
+			</trans-unit>
+			<trans-unit id="pidWicket19">
+				<source>PID wicket 19</source>
+				<target>PID Türchen 19</target>
+			</trans-unit>
+			<trans-unit id="pidWicket20">
+				<source>PID wicket 20</source>
+				<target>PID Türchen 20</target>
+			</trans-unit>
+			<trans-unit id="pidWicket21">
+				<source>PID wicket 21</source>
+				<target>PID Türchen 21</target>
+			</trans-unit>
+			<trans-unit id="pidWicket22">
+				<source>PID wicket 22</source>
+				<target>PID Türchen 22</target>
+			</trans-unit>
+			<trans-unit id="pidWicket23">
+				<source>PID wicket 23</source>
+				<target>PID Türchen 23</target>
+			</trans-unit>
+			<trans-unit id="pidWicket24">
+				<source>PID wicket 24</source>
+				<target>PID Türchen 24</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
