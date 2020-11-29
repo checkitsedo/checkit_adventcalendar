@@ -1,19 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
 <T3DataStructure>
-	<meta>
-		<langDisable>1</langDisable>
+	<meta type="array">
+		<langDisable type="integer">1</langDisable>
 	</meta>
 	<sheets>
 		<sDEF>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:sheetLabelBackground</sheetTitle>
+					<sheetTitle>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:sheetLabelBackground</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
 					<settings.flexform.image>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:backgroundPic</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:backgroundPic</label>
 							<config>
 								<type>group</type>
 								<internal_type>file</internal_type>
@@ -27,7 +26,7 @@
 					</settings.flexform.image>
 					<settings.flexform.altText>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:backgroundPicAltTag</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:backgroundPicAltTag</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -41,13 +40,13 @@
 		<s_imagemap>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:sheetLabelImagemap</sheetTitle>
+					<sheetTitle>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:sheetLabelImagemap</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
 					<settings.flexform.usemap>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:imagemapId</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:imagemapId</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -57,7 +56,7 @@
 					</settings.flexform.usemap>
 					<settings.flexform.imageMap>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:imagemapCode</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:imagemapCode</label>
 							<config>
 								<type>text</type>
 								<size>10</size>
@@ -71,13 +70,13 @@
 		<s_pids>
 			<ROOT>
 				<TCEforms>
-					<sheetTitle>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:sheetLabelWickets</sheetTitle>
+					<sheetTitle>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:sheetLabelWickets</sheetTitle>
 				</TCEforms>
 				<type>array</type>
 				<el>
 					<settings.flexform.wicket1>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket1</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket1</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -87,7 +86,7 @@
 					</settings.flexform.wicket1>
 					<settings.flexform.wicket2>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket2</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket2</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -97,7 +96,7 @@
 					</settings.flexform.wicket2>
 					<settings.flexform.wicket3>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket3</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket3</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -107,7 +106,7 @@
 					</settings.flexform.wicket3>
 					<settings.flexform.wicket4>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket4</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket4</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -117,7 +116,7 @@
 					</settings.flexform.wicket4>
 					<settings.flexform.wicket5>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket5</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket5</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -127,7 +126,7 @@
 					</settings.flexform.wicket5>
 					<settings.flexform.wicket6>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket6</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket6</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -137,7 +136,7 @@
 					</settings.flexform.wicket6>
 					<settings.flexform.wicket7>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket7</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket7</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -147,7 +146,7 @@
 					</settings.flexform.wicket7>
 					<settings.flexform.wicket8>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket8</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket8</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -157,7 +156,7 @@
 					</settings.flexform.wicket8>
 					<settings.flexform.wicket9>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket9</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket9</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -167,7 +166,7 @@
 					</settings.flexform.wicket9>
 					<settings.flexform.wicket10>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket10</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket10</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -177,7 +176,7 @@
 					</settings.flexform.wicket10>
 					<settings.flexform.wicket11>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket11</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket11</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -187,7 +186,7 @@
 					</settings.flexform.wicket11>
 					<settings.flexform.wicket12>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket12</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket12</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -197,7 +196,7 @@
 					</settings.flexform.wicket12>
 					<settings.flexform.wicket13>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket13</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket13</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -207,7 +206,7 @@
 					</settings.flexform.wicket13>
 					<settings.flexform.wicket14>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket14</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket14</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -217,7 +216,7 @@
 					</settings.flexform.wicket14>
 					<settings.flexform.wicket15>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket15</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket15</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -227,7 +226,7 @@
 					</settings.flexform.wicket15>
 					<settings.flexform.wicket16>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket16</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket16</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -237,7 +236,7 @@
 					</settings.flexform.wicket16>
 					<settings.flexform.wicket17>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket17</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket17</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -247,7 +246,7 @@
 					</settings.flexform.wicket17>
 					<settings.flexform.wicket18>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket18</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket18</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -257,7 +256,7 @@
 					</settings.flexform.wicket18>
 					<settings.flexform.wicket19>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket19</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket19</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -267,7 +266,7 @@
 					</settings.flexform.wicket19>
 					<settings.flexform.wicket20>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket20</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket20</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -277,7 +276,7 @@
 					</settings.flexform.wicket20>
 					<settings.flexform.wicket21>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket21</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket21</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -287,7 +286,7 @@
 					</settings.flexform.wicket21>
 					<settings.flexform.wicket22>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket22</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket22</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -297,7 +296,7 @@
 					</settings.flexform.wicket22>
 					<settings.flexform.wicket23>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket23</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket23</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
@@ -307,7 +306,7 @@
 					</settings.flexform.wicket23>
 					<settings.flexform.wicket24>
 						<TCEforms>
-							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xml:pidWicket24</label>
+							<label>LLL:EXT:checkit_adventcalendar/Resources/Private/Language/locallang.xlf:pidWicket24</label>
 							<config>
 								<type>input</type>
 								<eval>text</eval>
