@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:47:10Z" product-name="checkitadventcalendar">
+		<header/>
+		<body>
+			<trans-unit id="tx_checkitadventcalendar_domain_model_adventcalendar" xml:space="preserve">
+				<source>Adventcalendar</source>
+			</trans-unit>
+			<trans-unit id="sheetLabelBackground" xml:space="preserve">
+				<source>Background picture</source>
+			</trans-unit>
+			<trans-unit id="backgroundPic" xml:space="preserve">
+				<source>Background picture for the adventcalendar</source>
+			</trans-unit>
+			<trans-unit id="backgroundPicAltTag" xml:space="preserve">
+				<source>Alternative text</source>
+			</trans-unit>
+			<trans-unit id="sheetLabelImagemap" xml:space="preserve">
+				<source>Imagemap data</source>
+			</trans-unit>
+			<trans-unit id="imagemapId" xml:space="preserve">
+				<source>ID for ImageMap</source>
+			</trans-unit>
+			<trans-unit id="imagemapCode" xml:space="preserve">
+				<source>ImageMap HTML code</source>
+			</trans-unit>
+			<trans-unit id="sheetLabelWickets" xml:space="preserve">
+				<source>Target pages for wickets</source>
+			</trans-unit>
+			<trans-unit id="pidWicket1" xml:space="preserve">
+				<source>PID wicket 1</source>
+			</trans-unit>
+			<trans-unit id="pidWicket2" xml:space="preserve">
+				<source>PID wicket 2</source>
+			</trans-unit>
+			<trans-unit id="pidWicket3" xml:space="preserve">
+				<source>PID wicket 3</source>
+			</trans-unit>
+			<trans-unit id="pidWicket4" xml:space="preserve">
+				<source>PID wicket 4</source>
+			</trans-unit>
+			<trans-unit id="pidWicket5" xml:space="preserve">
+				<source>PID wicket 5</source>
+			</trans-unit>
+			<trans-unit id="pidWicket6" xml:space="preserve">
+				<source>PID wicket 6</source>
+			</trans-unit>
+			<trans-unit id="pidWicket7" xml:space="preserve">
+				<source>PID wicket 7</source>
+			</trans-unit>
+			<trans-unit id="pidWicket8" xml:space="preserve">
+				<source>PID wicket 8</source>
+			</trans-unit>
+			<trans-unit id="pidWicket9" xml:space="preserve">
+				<source>PID wicket 9</source>
+			</trans-unit>
+			<trans-unit id="pidWicket10" xml:space="preserve">
+				<source>PID wicket 10</source>
+			</trans-unit>
+			<trans-unit id="pidWicket11" xml:space="preserve">
+				<source>PID wicket 11</source>
+			</trans-unit>
+			<trans-unit id="pidWicket12" xml:space="preserve">
+				<source>PID wicket 12</source>
+			</trans-unit>
+			<trans-unit id="pidWicket13" xml:space="preserve">
+				<source>PID wicket 13</source>
+			</trans-unit>
+			<trans-unit id="pidWicket14" xml:space="preserve">
+				<source>PID wicket 14</source>
+			</trans-unit>
+			<trans-unit id="pidWicket15" xml:space="preserve">
+				<source>PID wicket 15</source>
+			</trans-unit>
+			<trans-unit id="pidWicket16" xml:space="preserve">
+				<source>PID wicket 16</source>
+			</trans-unit>
+			<trans-unit id="pidWicket17" xml:space="preserve">
+				<source>PID wicket 17</source>
+			</trans-unit>
+			<trans-unit id="pidWicket18" xml:space="preserve">
+				<source>PID wicket 18</source>
+			</trans-unit>
+			<trans-unit id="pidWicket19" xml:space="preserve">
+				<source>PID wicket 19</source>
+			</trans-unit>
+			<trans-unit id="pidWicket20" xml:space="preserve">
+				<source>PID wicket 20</source>
+			</trans-unit>
+			<trans-unit id="pidWicket21" xml:space="preserve">
+				<source>PID wicket 21</source>
+			</trans-unit>
+			<trans-unit id="pidWicket22" xml:space="preserve">
+				<source>PID wicket 22</source>
+			</trans-unit>
+			<trans-unit id="pidWicket23" xml:space="preserve">
+				<source>PID wicket 23</source>
+			</trans-unit>
+			<trans-unit id="pidWicket24" xml:space="preserve">
+				<source>PID wicket 24</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
