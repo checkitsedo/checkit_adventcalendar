@@ -94,9 +94,10 @@ class AdventcalendarController extends ActionController	 {
 	 */
 	public function addJqueryLibrary(){
 		// checks if jquery is loaded
+		$this->pageRenderer = GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Page\\PageRenderer');
 		$pageRenderer = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Page\PageRenderer::class);
-		$GLOBALS['TSFE']->$pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-		$GLOBALS['TSFE']->$pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/checkit_adventcalendar.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-		$GLOBALS['TSFE']->$pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
+		$GLOBALS['TSFE']->pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
+		$GLOBALS['TSFE']->pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/checkit_adventcalendar.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
+		$GLOBALS['TSFE']->pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
 	}
 }
