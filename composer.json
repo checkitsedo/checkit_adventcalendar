@@ -1,0 +1,20 @@
+{
+    "name": "chkit/checkit-adventcalendar",
+    "authors": [
+        {
+           "name": "Dominik Senti",
+           "role": "Developer"
+        }
+    ],
+    "type": "typo3-cms-extension",
+    "description": "A customizable responsive advent calendar show Modals based on pages as content placeholders for the several wickets",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+           "Chkit\\CheckitAdventcalendar\\": "Classes/"
+        }
+    },
+    "require": {
+        "typo3/cms-core": ">=9.5 <10.0.0"
+    }
+}
