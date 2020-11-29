@@ -98,3 +98,4 @@ class AdventcalendarController extends ActionController	 {
 		$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/checkit_adventcalendar.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
 		$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
 	}
+}
