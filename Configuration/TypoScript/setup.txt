@@ -1,0 +1,62 @@
+plugin.tx_checkitadventcalendar {
+	view {
+		templateRootPath = {$plugin.tx_checkitadventcalendar.view.templateRootPath}
+		partialRootPath = {$plugin.tx_checkitadventcalendar.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_checkitadventcalendar.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_checkitadventcalendar.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+plugin.tx_checkitadventcalendar._CSS_DEFAULT_STYLE (
+	textarea.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-checkit-adventcalendar table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-checkit-adventcalendar table th {
+		font-weight:bold;
+	}
+
+	.tx-checkit-adventcalendar table td {
+		vertical-align:top;
+	}
+)
+
+adventcalendar = PAGE
+adventcalendar {
+	typeNum = 2412
+	config {
+		disableAllHeaderCode = 1
+		xhtml_cleaning = 0
+		admPanel = 0
+		debug = 0
+		no_cache = 1
+		additionalHeaders = Content-type:application/json
+	}
+
+	10 = CONTENT
+	10 {
+		table = tt_content
+		select {
+			orderBy = sorting
+			where = colPos=0
+			languageField = sys_language_uid
+		}
+	}
+}
