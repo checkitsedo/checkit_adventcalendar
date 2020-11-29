@@ -1,6 +1,6 @@
 <?php
 
-namespace Chkit\CheckitAdventcalendar\Controller;
+namespace Checkitsedo\CheckitAdventcalendar\Controller;
 
 /**
  * This file is part of the "Checkit Adventcalendar" Extension for TYPO3 CMS.
