@@ -11,9 +11,6 @@ namespace Checkitsedo\CheckitAdventcalendar\Controller;
 
 use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
-use TYPO3\CMS\Core\Utility\GeneralUtility;
-
-
 
 /**
  * Controller of Adventcalendar records
@@ -95,10 +92,7 @@ class AdventcalendarController extends ActionController	 {
 	 */
 	public function addJqueryLibrary(){
 		// checks if jquery is loaded
-		$this->pageRenderer = GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Page\\PageRenderer');
-		$pageRenderer = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Page\PageRenderer::class);
-		$GLOBALS['TSFE']->pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-		$GLOBALS['TSFE']->pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/checkit_adventcalendar.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-		$GLOBALS['TSFE']->pageRenderer->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
+		$this->response->addAdditionalHeaderData('<script type="text/javascript" src="' . \TYPO3\CMS\Core\Utility\PathUtility::stripPathSitePrefix(ExtensionManagementUtility::extPath('jhe_adventcalendar')) . 'Resources/Public/JavaScript/jhe_adventcalendar.js" /></script>');
+		$this->response->addAdditionalHeaderData('<script type="text/javascript" src="' . \TYPO3\CMS\Core\Utility\PathUtility::stripPathSitePrefix(ExtensionManagementUtility::extPath('jhe_adventcalendar')) . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js" /></script>');
 	}
 }
