@@ -1,5 +1,5 @@
 {
-    "name": "chkit/checkit-adventcalendar",
+    "name": "checkitsedo/checkit-adventcalendar",
     "authors": [
         {
            "name": "Dominik Senti",
@@ -11,7 +11,7 @@
     "license": "GPL-2.0-or-later",
     "autoload": {
         "psr-4": {
-           "Chkit\\CheckitAdventcalendar\\": "Classes/"
+           "Checkitsedo\\CheckitAdventcalendar\\": "Classes/"
         }
     },
     "require": {
