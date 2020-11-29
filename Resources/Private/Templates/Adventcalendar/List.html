@@ -9,22 +9,28 @@
 -->
 
 <f:section name="main">
-
+	
 	<img src="{adventcalendar.background.image}" alt="{adventcalendar.background.altText}" usemap="#{adventcalendar.usemapData.usemap}" style="max-width:100%;height:auto">
-  
+	
 	<map name="{adventcalendar.usemapData.usemap}" id="{adventcalendar.usemapData.usemap}">
 		<f:for each="{adventcalendar.usemapData.imageMapAreas}" as="area">
-
+			
 			<f:if condition="{f:uri.page(pageUid:'{area.id}')}">
 				<area shape="{area.shape}" coords="{area.coords}" href="{f:uri.page(pageUid:'{area.id}')}" id="test" alt="area.alt" class="test" style="{area.style}" data-toggle="modal" data-remote="{f:uri.page(pageUid:'{area.id}')}" data-target="#pp-modal-dialog-{area.id}" />
-      </f:if>
-
+			</f:if>
+			
 		</f:for>
 	</map>
-
+	
 	<input type="hidden" value="{adventcalendar.jQuery.serializedData}" id="serializedjquerydata" />
-
-	<div class="modal fade pp-modal-dialog" id="pp-modal-dialog" tabindex="-1" role="dialog" aria-labelledby="pp-modal-dialog-title" style="display: none;" aria-hidden="true">
+	
+	<div class="modal fade pp-modal-dialog"
+	     id="pp-modal-dialog"
+	     tabindex="-1"
+	     role="dialog"
+	     aria-labelledby="pp-modal-dialog-title"
+	     style="display: none;"
+	     aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -46,7 +52,7 @@
 	<script type="text/javascript">
 	$('img[usemap]').rwdImageMaps();
 	</script>
-
+	
 	<script type="text/javascript">
 	$(document).ready(function(){
 		$('.test').click(function(){
