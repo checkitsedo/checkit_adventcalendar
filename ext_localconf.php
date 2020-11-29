@@ -11,7 +11,7 @@ if (!\defined('TYPO3_MODE')) {
  * Configure Plugin
  */
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-    'Chkit.checkit_adventcalendar',
+    'Checkitsedo.checkit_adventcalendar',
     'Adventcalendar',
     [
         'Adventcalendar' => 'list',
