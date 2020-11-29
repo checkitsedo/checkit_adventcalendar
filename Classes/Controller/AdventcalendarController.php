@@ -94,11 +94,7 @@ class AdventcalendarController extends ActionController	 {
 	 */
 	public function addJqueryLibrary(){
 		// checks if jquery is loaded
-		if (typeof jQuery != 'undefined') {
-			$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/checkit_adventcalendar.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-			$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-		} else {
-			$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-			$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/checkit_adventcalendar.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-			$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
-		}
+		$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
+		$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/checkit_adventcalendar.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
+		$GLOBALS['TSFE']->getPageRenderer()->addJsFooterFile(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::siteRelPath('checkit_adventcalendar') . 'Resources/Public/JavaScript/jquery.rwdImageMaps.min.js', $compress = FALSE, $forceOnTop = FALSE, $allWrap = '');
+	}
